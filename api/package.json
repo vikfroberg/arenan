@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "watch": "chokidar '**/*.elm' -c 'elm make src/Main.elm --output main.js' --initial",
+    "repl": "chokidar '**/*.elm' -c 'elm make src/Repl.elm --output main.js' --initial"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chokidar-cli": "^1.2.0",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0",
+    "pg": "^7.1.2",
+    "ramda": "^0.24.1"
+  }
+}

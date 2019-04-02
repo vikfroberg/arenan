@@ -1,0 +1,14 @@
+{
+  "name": "players-index",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.2.0"
+  },
+  "dependencies": {
+    "micro": "^8.0.2"
+  }
+}

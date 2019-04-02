@@ -1,0 +1,17 @@
+{
+  "name": "players-index",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev --port 5001"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "micro": "^8.0.2",
+    "micro-cors": "0.0.4",
+    "pg": "^7.1.2"
+  }
+}

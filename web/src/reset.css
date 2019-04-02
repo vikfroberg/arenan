@@ -1,0 +1,43 @@
+* {
+  display: block;
+  background: transparent;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: baseline;
+  z-index: 1;
+  list-style: none;
+  quotes: none;
+}
+
+title, script, style {
+  display: none;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+span {
+  display: inline;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
